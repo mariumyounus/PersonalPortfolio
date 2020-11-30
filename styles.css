@@ -50,7 +50,15 @@ text-align: center;
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
-
+/* Blockquote styling */
+blockquote {
+  background: #e9e3e3;
+  border-left: 10px solid #ccc;
+  text-align: center;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
 
 
 
