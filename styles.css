@@ -1,3 +1,22 @@
+body
+{
+ background-color: rgb(197, 224, 224);
+    
+}
+header
+{
+text-align: center;
+}
+
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+
+
 /* The navigation bar */
 .navbar {
   overflow: hidden;
@@ -5,6 +24,7 @@
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  text-emphasis: em;
 }
 
 /* Links inside the navbar */
@@ -15,6 +35,8 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  text-emphasis: em;
+  font-size: large;
 }
 
 /* Change background on mouse-over */
@@ -22,39 +44,12 @@
   background: #ddd;
   color: black;
 }
-
-/* Main content */
-.main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
 }
 
 
 
 
 
-<html>
-<head>
-<style>
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
-}
-</style>
-</head>
-<body>
-<style>
-        h1{color:red;
-        width:32;
-        font-size: 1cm;
-        font-style:italic;
-        border:5px;}
-        </style>
-        <body style="background-color: aliceblue;"></body>
-    <div style="background-image: url('img_girl.jpg');"></div>
-    <div style= "background-color: rgb(121, 117, 124);"></div>
-    <div style= "background-color: rgb(121, 117, 124);"></div>
-    <div style="background-image: url('images/background.jpg');"></div>
-    <div style="background-image: url('images/background.jpg');"></div>
-   
+
